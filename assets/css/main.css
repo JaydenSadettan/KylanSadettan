@@ -1946,17 +1946,18 @@ input, select, textarea {
 		.main.style1 {
 			-moz-align-items: top center;
 			-webkit-align-items: top center;
-			-ms-align-items: top center;
+			-ms-align-items: center;
 			align-items: top center;
-			-moz-justify-content: top center;
-			-webkit-justify-content: top center;
-			-ms-justify-content: top center;
-			justify-content: top center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content:  center;
+			justify-content:  center;
 			text-align: top center;
+			padding: 3em 0 3em 0;
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 2.25em;
 				line-height: 1em;
 			}
 
@@ -1978,14 +1979,14 @@ input, select, textarea {
 			}
 
 		.main.style2 {
-			-moz-align-items: top center;
-			-webkit-align-items: top center;
-			-ms-align-items: top center;
-			align-items: top center;
-			-moz-justify-content: top center;
-			-webkit-justify-content: top center;
-			-ms-justify-content: top center;
-			justify-content: top center;
+			-moz-align-items:  center;
+			-webkit-align-items: center;
+			-ms-align-items:  center;
+			align-items: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content:  center;
+			justify-content:  center;
 			padding: 3em 0 3em 0;
 			overflow: hidden;
 		}
@@ -2001,6 +2002,7 @@ input, select, textarea {
 				transform: translateZ(0);
 				position: relative;
 				width: 35%;
+				opacity: 75%;
 				margin: 0;
 			}
 
